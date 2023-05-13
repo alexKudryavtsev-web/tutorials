@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cuprum&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body,
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.logo {
+    font-size: 10em;
+    color: #ff9966;
+}
+
+.title {
+    font-size: 5em;
+    font-family: 'Cuprum', sans-serif;
+    letter-spacing: 0.05em;
+    line-height: 0.5em;
+    color: #ff9933;
+}
+
+.text {
+    font-size: 1.5em;
+    font-family: 'Public Sans', sans-serif;
+    text-transform: lowercase;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+a {
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #6699ff;
+    color: white;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition: .5s background-color;
+}
+
+a:hover {
+    background-color: #4d88ff;
+}
+
+a:active {
+    background-color: #3377ff;
+}

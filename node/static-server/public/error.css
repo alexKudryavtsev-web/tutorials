@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+body,
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+h1,
+h2 {
+    color: #ff6666;
+    font-size: 3em;
+    font-family: 'Calistoga', cursive;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+h1 i {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 2em;
+}
